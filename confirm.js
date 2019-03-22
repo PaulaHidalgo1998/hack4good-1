@@ -1,9 +1,11 @@
+document.write('	FACTURA		');
+document.write();
+document.write('Estado: en espera');
+document.write();
 
-	document.write('Estado: en espera');
+window.setTimeout(funcion,5000);
 
-	for(var i=0; i<10; i++){
-		window.setTimeout('return 0',1000);
-	}
-	//location.reload(true);
-	document.write('\n');
+function funcion(){
 	document.write('Estado: entregado');
+
+}
